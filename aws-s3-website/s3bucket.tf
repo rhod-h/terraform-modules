@@ -9,7 +9,7 @@ resource "aws_s3_bucket_acl" "site_bucket_acl" {
 }
 
 
-resource "aws_s3_bucket_website_configuration" "site_bucket_webiste_config" {
+resource "aws_s3_bucket_website_configuration" "site_bucket_website_config" {
   bucket = aws_s3_bucket.site_bucket.bucket
 
   index_document {
